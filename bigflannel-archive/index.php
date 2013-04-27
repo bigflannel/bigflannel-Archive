@@ -1,0 +1,3 @@
+<?php
+	// prevents folder listing
+?>

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+/* (c) 2013 bigflannel */
+/* This code is licensed under MIT license (see LICENSE.txt for details) */
+
+
+/* =HTML5 fixes
+-------------------------------------------------------------- */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+
+
+/* =main
+-------------------------------------------------------------- */
+
+/* Always force a scrollbar in non-IE, makes page hold itself better */
+html { 
+	overflow-y: scroll;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	color: #999999;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #999999;
+}
+a img {
+	border: none;
+}
+
+
+/* =page
+-------------------------------------------------------------- */
+
+#page {
+	position: relative;
+	margin: 0px 0xp 0px 0px;
+	padding: 20px 0px 50px 0px;
+	z-index: 100;
+}
+#left-column {
+	position: relative;
+	float: left;
+	width: 190px;	
+}
+#left-column nav {
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin: 0px 0px 0px 20px;
+}
+#right-column {
+	float: right;
+	width: 0px;
+}
+section {
+	margin: 0px 0px 0px 10px;
+}
+#logo-file {
+	width: 100%;
+}
+#links {
+	margin: 50px 0px 0px 0px;
+	font-size: .75em;
+}
+
+
+/* =home page
+-------------------------------------------------------------- */
+
+.gallery-title {
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+}
+.album-button {
+	float: left;
+	width: 190px;
+	height: 220px;
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+}
+.album-thumb {
+	border-bottom: 4px solid #666666;
+}
+.album-thumb:hover {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.album-title {
+	font-size: .875em;
+	margin: 10px 0px 0px 0px;
+}
+.album-description {
+	font-size: .7em;
+	margin: 7px 0px 0px 0px;
+	line-height: 1.5em;
+}
+
+
+/* =album page
+-------------------------------------------------------------- */
+
+#album-text {
+	width: 150px;
+	text-align: right;
+	margin: 0px 0px 10px 20px;
+}
+.image-thumb {
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+.image-thumb:hover {
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+
+/* =image page
+-------------------------------------------------------------- */
+
+.image-main {
+	max-width: 0px;
+	max-height: 0px;
+	cursor: pointer;
+}
+#image-nav {
+	margin: 10px 0px 0px 0px;
+}
+#previous, #next {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	background-color: #ededed;
+	color: #999999;
+	padding: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+#pause {
+	display: none;
+	width: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+#play {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
