@@ -3,7 +3,7 @@ bigflannel Archive
 bigflannel Archive is a quick and easy way to display your SlideShowPro Director galleries in archive format on your own website. It displays galleries, albums and the images and video in them. The code is HTML5/PHP/JS.
 
 bigflannel Archive Demo
-http://bigflannel.com/portfolio/archive
+DELETED
 
 
 Getting Started
@@ -51,7 +51,7 @@ or set the logo file's address using 'logoFile':
 and the text and address of the link using 'siteLinkText' and 'siteLinkAddress':
 
 'siteLinkText' => 'bigflannel Portfolio',
-'siteLinkAddress' => 'http://bigflannel.com/portfolio/light'
+'siteLinkAddress' => 'http://example.com'
 
 
 License
